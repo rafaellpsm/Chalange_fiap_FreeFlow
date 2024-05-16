@@ -23,7 +23,7 @@ Orders.forEach(order => {
   const trContent = `
       <td>${order.NomeVeiculo}</td>
       <td>${order.Placa}</td>
-      <td>${order.Seguro}</td>
+      <td>${order.Pe}</td>
       <td class="${order.status === 'Recusado' ? 'danger' : order.status === 'Pendente' ? 'warning' : 'primary'}">${order.status}</td>
       <td class="primary">Details</td>
     `;
