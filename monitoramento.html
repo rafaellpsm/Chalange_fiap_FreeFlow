@@ -33,12 +33,7 @@
                     </span>
                     <h3>DashBoard</h3>
                 </a>
-                <a href="#">
-                    <span class="material-icons-sharp">
-                        person_outline
-                    </span>
-                    <h3>Users</h3>
-                </a>
+
                 <a href="./monitoramento.html" class="active">
                     <span class="material-symbols-sharp">
                         videocam
@@ -56,15 +51,9 @@
                         mail_outline
                     </span>
                     <h3>Tickets</h3>
-                    <span class="message-count">19</span>
+                    <span class="message-count">10</span>
                 </a>
-                <a href="#">
-                    <span class="material-icons-sharp">
-                        inventory
-                    </span>
-                    <h3>Sale List</h3>
-                </a>
-                <a href="#">
+                <a href="./reports.html">
                     <span class="material-icons-sharp">
                         report_gmailerrorred
                     </span>
@@ -76,13 +65,13 @@
                     </span>
                     <h3>Settings</h3>
                 </a>
-                <a href="#">
+                                <a href="#">
                     <span class="material-icons-sharp">
-                        add
+                        person_outline
                     </span>
-                    <h3>New Login</h3>
+                    <h3>Users</h3>
                 </a>
-                <a href="#">
+                <a href="#" onclick="logout_alert()">
                     <span class="material-icons-sharp">
                         logout
                     </span>
@@ -97,54 +86,73 @@
             <h1>Monitoramento</h1>
             <!-- Analyses -->
             <div class="analyse">  
-                <div class="sales">
+                <div class="cameras_monitoramento">
                     <div class="status">
-                    <img src="./assets/img_01fc" alt="">
+                    <img src="./assets/img_01fc" alt="Camera 01">
                     </div>
                 </div>
-                <div class="visists">
+                <div class="cameras_monitoramento">
                     <div class="status">
-                        <img src="./assets/img_02fc" alt="Camera 01">
+                        <img src="./assets/img_02fc" alt="Camera 02">
                     </div>
                 </div>
-                <div class="searches problems">
+                <div class="cameras_monitoramento">
                     <div class="status">
                         <div class="info">
-                            <img src="" alt="Camera 03">
-                            <h2>IA Identificou problemas com a camera.
-                            <br>ID: 3560
+                            <img src="#" alt="Camera 03">
+                            <h2>IA Identificou problemas com a camera. <span class="material-symbols-sharp red">
+                                videocam_off
+                                </span>
+                            <br> Ticket ID: 11004
                             </h2>
                         </div>
                     </div>
                 </div>
-                <div class="sales">
+                <div class="cameras_monitoramento">
                     <div class="status">
-                    <img src=".//assets/img_03fc" alt="Camera 04">
+                    <img src=".//assets/img_04fc" alt="Camera 04">
                     </div>
                 </div>
-                <div class="visists">
+                <div class="cameras_monitoramento">
                     <div class="status">
-                        <img src="./assets/img_02fc" alt="">
+                        <img src="./assets/img_05fc.webp" alt="">
                     </div>
                 </div>
-                <div class="searches">
+                <div class="cameras_monitoramento">
                     <div class="status">
                         <div class="info">
-                            <img src="./assets/img_01fc" alt="">
+                            <img src="./assets/img_06fc" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="sales">
+                <div class="cameras_monitoramento">
                     <div class="status">
-                    <img src="./assets/Rafael-logo.jpeg" alt="">
+                    <img src="./assets/Img_07fc.jpg" alt="">
                     </div>
                 </div>
-                <div class="visists">
+                <div class="cameras_monitoramento">
                     <div class="status">
-                        <img src="./assets/img_02fc" alt="">
+                        <img src="./assets/img_08fc.jpg" alt="">
                     </div>
                 </div>
-                <div class="searches">
+                <div class="cameras_monitoramento">
+                    <div class="status">
+                        <div class="info">
+                            <img src="./assets/img_09fc.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="cameras_monitoramento">
+                    <div class="status">
+                    <img src="./assets/img_05fc.webp" alt="">
+                    </div>
+                </div>
+                <div class="cameras_monitoramento">
+                    <div class="status">
+                        <img src="./assets/img_04fc" alt="">
+                    </div>
+                </div>
+                <div class="cameras_monitoramento">
                     <div class="status">
                         <div class="info">
                             <img src="./assets/img_01fc" alt="">
@@ -152,6 +160,7 @@
                     </div>
                 </div>
             </div>
+        
             <!-- End of Analyses -->
 
            
@@ -201,23 +210,20 @@
 
             <div class="reminders">
                 <div class="header">
-                    <h2>Reminders</h2>
-                    <span class="material-icons-sharp">
-                        notifications_none
-                    </span>
+                    <h2>Câmeras de Monitoramento</h2>
                 </div>
 
                 <div class="notification">
-                    <div class="icon">
-                        <span class="material-icons-sharp">
-                            volume_up
+                    <div class="icon danger">
+                        <span class="material-icons-sharp danger">
+                            circle
                         </span>
                     </div>
                     <div class="content">
                         <div class="info">
-                            <h3>Workshop</h3>
+                            <h3>km 414 (Itaguaí)</h3>
                             <small class="text_muted">
-                                08:00 AM - 12:00 PM
+                                Transito Intenso - Pista Molhada
                             </small>
                         </div>
                         <span class="material-icons-sharp">
@@ -225,18 +231,53 @@
                         </span>
                     </div>
                 </div>
-
-                <div class="notification deactive">
-                    <div class="icon">
-                        <span class="material-icons-sharp">
-                            edit
+                <div class="notification">
+                    <div class="icon amarelo">
+                        <span class="material-icons-sharp success">
+                            circle
                         </span>
                     </div>
                     <div class="content">
                         <div class="info">
-                            <h3>Workshop</h3>
+                            <h3>km 538 (Paraty)</h3>
                             <small class="text_muted">
-                                08:00 AM - 12:00 PM
+                                Transito Livre - Pista Seca
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+                <div class="notification">
+                    <div class="icon amarelo">
+                        <span class="material-icons-sharp warning">
+                            circle
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Km 447 (Mangaratiba)</h3>
+                            <small class="text_muted">
+                                Transito Moderado - Pista Seca
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+                <div class="notification">
+                    <div class="icon">
+                        <span class="material-icons-sharp red">
+                            videocam_off
+                            </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Rio-Santos (BR-101)</h3>
+                            <small class="text_muted">
+                                Câmera Fora de Ar
                             </small>
                         </div>
                         <span class="material-icons-sharp">
@@ -250,7 +291,7 @@
                         <span class="material-icons-sharp">
                             add
                         </span>
-                        <h3>Add Reminder</h3>
+                        <h3>Adicionar Camera</h3>
                     </div>
                 </div>
 
@@ -260,7 +301,13 @@
 
     </div>
 
-    <script src="orders.js"></script>
-    <script src="index.js"></script>
+    <script>
+        function logout_alert() {
+            alert("Realmente deseja sair?")
+        };
+    </script>
+
+    <script src="./orders.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

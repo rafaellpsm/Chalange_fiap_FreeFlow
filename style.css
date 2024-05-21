@@ -216,11 +216,11 @@ aside .sidebar a:hover span {
     margin-left: 0.6rem;
 }
 
-aside .sidebar .message-count {
+aside .sidebar .message-count{
     background-color: var(--color-danger);
     padding: 2px 6px;
     color: var(--color-white);
-    border-radius: var(--border-radius-1);
+    border-radius: var(--border-radius-2);
     font-size: 11px;
 }
 
@@ -278,15 +278,21 @@ main .analyse svg circle {
     transform: translate(5px, 5px);
 }
 
+main .analyse .cameras_monitoramento svg circle {
+    stroke: var(--color-success);
+    stroke-dashoffset: -178;
+    stroke-dasharray: 200;
+}
+
 main .analyse .sales svg circle {
     stroke: var(--color-success);
-    stroke-dashoffset: -30;
+    stroke-dashoffset: -178;
     stroke-dasharray: 200;
 }
 
 main .analyse .visists svg circle {
     stroke: var(--color-danger);
-    stroke-dashoffset: -30;
+    stroke-dashoffset: -122;
     stroke-dasharray: 200;
 }
 
@@ -441,25 +447,50 @@ main .recent-orders a {
     text-align: center;
     margin-top: 1rem;
     background-color: var(--color-white);
+    color: var(--color-primary);
     padding: var(--card-padding);
+    border: 2px dashed var(--color-primary);
     border-radius: var(--card-border-radius);
     box-shadow: var(--box-shadow);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
-.right-section .user-profile:hover {
+.user-profile:hover {
     box-shadow: none;
-}
-
-.right-section .user-profile img {
-    width: 11rem;
-    height: auto;
-    margin-bottom: 0.8rem;
-    border-radius: 10%;
+    background-color: var(--color-primary);
+    color: var(--color-white);
 }
 
 .right-section .user-profile h2 {
+    margin-bottom: 0.8rem;
+}
+
+.right-section .new_report {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    background-color: var(--color-white);
+    color: red;
+    padding: var(--card-padding);
+    border: 2px dashed red;
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.new_report:hover {
+    box-shadow: none;
+    background-color: red;
+    color: var(--color-white);
+    text-decoration-color: white;
+}
+
+
+
+.new_report .user-profile h2 {
     margin-bottom: 0.8rem;
 }
 
@@ -572,13 +603,6 @@ main .recent-orders a {
     main .analyse {
         grid-template-columns: 1fr;
         gap: 0;
-    }
-
-    main .problems {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
     }
 
     main .new-users .user-list .user {

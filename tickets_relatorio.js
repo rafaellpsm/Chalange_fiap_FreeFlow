@@ -18,13 +18,13 @@ darkMode.addEventListener('click', () => {
   darkMode.querySelector('span:nth-child(2)').classList.toggle('active');
 })
 
-Orders.forEach(order => {
+Tickets.forEach(tickets => {
   const tr = document.createElement('tr');
   const trContent = `
-      <td>${order.NomeVeiculo}</td>
-      <td>${order.Placa}</td>
-      <td>${order.Usuario}</td>
-      <td class="${order.status === 'Recusado' ? 'danger' : order.status === 'Aceito' ? 'success' : order.status === 'Pendente' ? 'warning' : 'primary'}">${order.status}</td>
+      <td>${tickets.ID}</td>
+      <td>${tickets.Motivo}</td>
+      <td>${tickets.Requerente}</td>
+      <td class="${tickets.status === 'Pendente' ? 'danger' : tickets.status === 'Concluido' ? 'success' : tickets.status === 'Em Andamento' ? 'warning' : 'primary'}">${tickets.status}</td>
       <td class="primary">Detalhes</td>
     `;
   tr.innerHTML = trContent;
