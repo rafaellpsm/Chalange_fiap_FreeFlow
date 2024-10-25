@@ -216,7 +216,7 @@ aside .sidebar a:hover span {
     margin-left: 0.6rem;
 }
 
-aside .sidebar .message-count{
+aside .sidebar .message-count {
     background-color: var(--color-danger);
     padding: 2px 6px;
     color: var(--color-white);
@@ -622,7 +622,9 @@ main .recent-orders a {
     }
 
     main table tbody tr td:last-child,
-    main table tbody tr td:first-child {
+    main table tbody tr td:first-child,
+    main table thead tr th:last-child,
+    main table thead tr th:first-child {
         display: none;
     }
 
