@@ -10,6 +10,8 @@ The Free Flow toll system in one or more lanes is a system of automatic collecti
 
 It is easy to install and maintain so that provides low costs of operation. It guarantees the comfort and safety of the user andincreases the traffic capacity by reducing congestion.It is also one of the system providing less environmental impact since it reduces infrastructure and with this pollution.
 
+#### The Code is 100% Responsive
+
 ---
 
 ## Website pages
@@ -20,6 +22,9 @@ This is a page to monitor cameras where FREE FLOW is installed.<br/>
 You can notice on the right, a block that informs you of the status of the cameras you have already clicked on, in order from most recent to least. <br/>
 On the left is the sidebar, with 3 more functional pages, the rest is just decoration.
 <span style="font-size: 12px; color: #444;">for now</span>
+
+<img src="./assets/monitoramento_img.png" alt="Interface de Monitoramento" width="400" />
+
 
 ---
 ### ***Analytics***
@@ -45,6 +50,8 @@ And lastly in the main, we have a block with 5 columns showing recent vehicles f
 -   Details
 
 You can notice on the right, a block that informs you of the status of the cameras you have already clicked on, in order from most recent to least.
+
+<img src="./assets/analises_img.png" alt="Interface de Analises" width="400" />
 
 ---
 ### ***Tickets***
@@ -80,6 +87,8 @@ And below there are 4 rows showing the recent Tickets you saw in order from rece
 -   Example of a row:
 -       🟡    Damaged Structure    ID: 13002
 
+<img src="./assets/tickets_img.png" alt="Interface de Tickets" width="400" />
+
 ---
 
 ### ***Reports***
@@ -95,7 +104,12 @@ And below there are 4 rows showing the recent Reports you saw in order from rece
 
 -   Example of a row:
 -       🔴    Lack of Accessibility    ID: 88001
+
+<img src="./assets/reports_img.png" alt="Interface de Reports" width="400" />
+
 ---
+
+<span style="font-size: 12px; color: #444;">The code was made is inspired by this [video](https://youtu.be/BOF79TAIkYQ?si=RUEGZV06zu0XzJr3)</span>
 
 <br/>
 <br/>
@@ -109,6 +123,8 @@ Eu criei este site para entregar um desafio da minha faculdade em parceria com a
 O sistema de pedágio Free Flow em uma ou mais pistas é um sistema de cobrança automática em estradas e rodovias que não afeta o fluxo normal de tráfego quando os usuários passam pelo ponto de cobrança.
 
 É fácil de instalar e manter, o que proporciona baixos custos de operação. Ele garante o conforto e a segurança do usuário e aumenta a capacidade de tráfego ao reduzir a congestão. Além disso, é um dos sistemas que geram menos impacto ambiental, pois reduz a infraestrutura e, com isso, a poluição.
+
+#### O Código é 100% Responsivo
 
 ---
 
@@ -196,3 +212,7 @@ E abaixo há 4 linhas mostrando os Relatórios recentes que você viu em ordem d
 
 -   Exemplo de uma linha:
 -       🔴    Falta de Acessibilidade    ID: 88001
+
+---
+
+<span style="font-size: 12px; color: #444;">O código foi feito é inspirado neste [video](https://youtu.be/BOF79TAIkYQ?si=RUEGZV06zu0XzJr3)</span>
