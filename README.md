@@ -109,8 +109,6 @@ And below there are 4 rows showing the recent Reports you saw in order from rece
 
 ---
 
-<span style="font-size: 12px; color: #444;">The code was made is inspired by this [video](https://youtu.be/BOF79TAIkYQ?si=RUEGZV06zu0XzJr3)</span>
-
 <br/>
 <br/>
 
@@ -137,6 +135,8 @@ Você pode notar, à direita, um bloco que informa o status das câmeras que voc
 À esquerda está a barra lateral, com mais 3 páginas funcionais, o resto é apenas decoração.
 <span style="font-size: 12px; color: #444;">por enquanto</span>
 
+<img src="./assets/monitoramento_img.png" alt="Interface de Monitoramento" width="400" />
+
 ---
 
 ### ***Análises***
@@ -162,6 +162,8 @@ Por fim, na seção principal, temos um bloco com 5 colunas mostrando veículos 
 -   Detalhes
 
 Você pode notar, à direita, um bloco que informa o status das câmeras que você já clicou, em ordem da mais recente para a mais antiga.
+
+<img src="./assets/analises_img.png" alt="Interface de Analises" width="400" />
 
 ---
 
@@ -197,13 +199,15 @@ E abaixo há 4 linhas mostrando os Tickets recentes que você viu em ordem do ma
 -   Exemplo de uma linha:
 -       🟡    Estrutura Danificada    ID: 13002
 
+-   <img src="./assets/tickets_img.png" alt="Interface de Tickets" width="400" />
+
 ---
 
-### ***Relatórios***
+### ***Reports***
 
-É uma página similar aos Tickets, mas apenas Usuários e Suporte Técnico podem fazer Relatórios.<br/>
+É uma página similar aos Tickets, mas apenas Usuários e Suporte Técnico podem fazer Reports.<br/>
 No entanto, os relatórios possuem diferentes opções de reclamação.
-#### Exemplo de Relatório:
+#### Exemplo de Report:
 -       ID    Motivo    Usuário    Status    Detalhes 
 -       87004    Erro no aplicativo      Rafael Pincinato    🟢Concluído    Detalhes
 
@@ -213,6 +217,10 @@ E abaixo há 4 linhas mostrando os Relatórios recentes que você viu em ordem d
 -   Exemplo de uma linha:
 -       🔴    Falta de Acessibilidade    ID: 88001
 
+-   <img src="./assets/reports_img.png" alt="Interface de Reports" width="400" />
+
 ---
 
+
+<span style="font-size: 12px; color: #444;">The code was made is inspired by this [video](https://youtu.be/BOF79TAIkYQ?si=RUEGZV06zu0XzJr3)</span>
 <span style="font-size: 12px; color: #444;">O código foi feito é inspirado neste [video](https://youtu.be/BOF79TAIkYQ?si=RUEGZV06zu0XzJr3)</span>
