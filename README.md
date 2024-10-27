@@ -222,5 +222,5 @@ E abaixo há 4 linhas mostrando os Relatórios recentes que você viu em ordem d
 ---
 
 
-<span style="font-size: 12px; color: #444;">The code was made is inspired by this [video](https://youtu.be/BOF79TAIkYQ?si=RUEGZV06zu0XzJr3)</span>
-<span style="font-size: 12px; color: #444;">O código foi feito é inspirado neste [video](https://youtu.be/BOF79TAIkYQ?si=RUEGZV06zu0XzJr3)</span>
+<span style="font-size: 12px; color: #444;">The code was made inspired by this [video](https://youtu.be/BOF79TAIkYQ?si=RUEGZV06zu0XzJr3)</span>
+<span style="font-size: 12px; color: #444;">O código foi feito inspirado neste [video](https://youtu.be/BOF79TAIkYQ?si=RUEGZV06zu0XzJr3)</span>
